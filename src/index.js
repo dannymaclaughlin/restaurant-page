@@ -1,3 +1,5 @@
+import { loadPage } from "./page-load";
 import "./styles.css";
 
-console.log('hello!')
+loadPage();
+// console.log('hello!')
