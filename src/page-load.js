@@ -1,7 +1,12 @@
+import mainImage from "./images/main-photo.jpg"
+
 export function loadPage() {
     const contentContainer = document.querySelector("#content");
 
     // image
+    const image = document.createElement("img");
+    image.src = mainImage;
+    contentContainer.appendChild(image);
 
     // headline
     const headline = document.createElement("h1");
