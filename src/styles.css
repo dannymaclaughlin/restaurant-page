@@ -1,3 +1,31 @@
 .description {
     font-size: 1em;
 }
+
+.homeDiv {
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid red;
+}
+
+button {
+    border: none;
+    width: 12em;
+    height: 2em;
+    background-color: rgb(236, 239, 128);
+    font-size: 1em;
+    font-weight: bold;    
+}
+
+button:hover {
+    background-color: rgb(201, 205, 109);
+}
+
+body {
+    background-color: rgb(236, 239, 128);
+}
