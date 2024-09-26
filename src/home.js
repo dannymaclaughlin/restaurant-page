@@ -1,3 +1,5 @@
+import "./styles.css";
+
 export function renderHome() {
     const contentContainer = document.querySelector("#content");
     const homeDiv = document.createElement("div");
@@ -5,10 +7,11 @@ export function renderHome() {
     homeDiv.classList.add("homeDiv");
 
     // restaurant name
-    const restaurantName = document.createElement("h1");
+    const restaurantNameElement = document.createElement("h1");
     const restaurantNameText = document.createTextNode("Stev's Potatoes");
-    restaurantName.appendChild(restaurantNameText);
+    restaurantNameElement.appendChild(restaurantNameText);
     homeDiv.appendChild(restaurantNameText);
+    restaurantNameElement.classList.add("restaurantName");
 
     // restaurant description
     const description = document.createElement("p");
