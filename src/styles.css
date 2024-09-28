@@ -10,22 +10,23 @@ header {
     display: flex;
     justify-content: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 button {
     border: none;
     width: 12em;
     height: 2em;
-    background-color: rgb(236, 239, 128);
+    background-color: #b08968;
     font-size: 1em;
     font-weight: bold;    
 }
 
 button:hover {
-    background-color: rgb(201, 205, 109);
+    background-color: #7f5539;
+    border-radius: 4px;
 }
 
 body {
-    background-color: rgb(236, 239, 128);
+    background-color: #b08968;
 }
