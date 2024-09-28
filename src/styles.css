@@ -1,11 +1,3 @@
-.description {
-    font-size: 1em;
-}
-
-.homeDiv {
-    
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -29,4 +21,31 @@ button:hover {
 
 body {
     background-color: #b08968;
+}
+
+/* page-load.js */
+.description {
+    font-size: 1em;
+}
+
+/* home.js */
+.homeDiv {
+    
+}
+
+/* menu.js */
+.menuDiv {
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1,
+.item2,
+.item3 {
+    height: 15em;
+    width: 15em;
+
+    border: 2px solid blue;
 }
