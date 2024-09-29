@@ -3,19 +3,30 @@ import "./styles.css"
 export function renderMenu() {
     const contentContainer = document.querySelector("#content");
 
-    const menuDiv = document.createElement("div");
-    contentContainer.appendChild(menuDiv);
-    menuDiv.classList.add("menuDiv");
+    const menuContainer = document.createElement("div");
+    contentContainer.appendChild(menuContainer);
+    menuContainer.classList.add("menuContainer");
 
-    const item1Div = document.createElement("div");
-    menuDiv.appendChild(item1Div);
-    item1Div.classList.add("item1");
+    // item 1 container
+    const item1Container = document.createElement("div");
+    menuContainer.appendChild(item1Container);
+    item1Container.classList.add("item1Container");
 
-    const item2Div = document.createElement("div");
-    menuDiv.appendChild(item2Div);
-    item2Div.classList.add("item2");
+    // item 1 content
+    const item1 = document.createElement("p");
+    const item1Content = document.createTextNode("1");
+    item1.appendChild(item1Content);
+    item1Container.appendChild(item1);
+    item1.classList.add("item1");
+    item1Content.classList.add("item1Content");
 
-    const item3Div = document.createElement("div");
-    menuDiv.appendChild(item3Div);
-    item3Div.classList.add("item3");
+    // item 2
+    const item2Container = document.createElement("div");
+    menuContainer.appendChild(item2Container);
+    item2Container.classList.add("item2Container");
+
+    // item 3
+    const item3Container = document.createElement("div");
+    menuContainer.appendChild(item3Container);
+    item3Container.classList.add("item3Container");
 }

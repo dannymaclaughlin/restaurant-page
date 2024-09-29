@@ -34,18 +34,22 @@ body {
 }
 
 /* menu.js */
-.menuDiv {
+.menuContainer {
     border: 2px solid red;
 
     display: flex;
     justify-content: space-between;
 }
 
-.item1,
-.item2,
-.item3 {
+.item1Container,
+.item2Container,
+.item3Container {
     height: 15em;
     width: 15em;
 
     border: 2px solid blue;
+}
+
+.item1Content {
+    font-size: 20em;
 }
