@@ -70,3 +70,11 @@ body {
 .item3 {
     font-size: 10em;
 }
+
+/* contact.js */
+.contactDiv {
+    border: 3px solid blue;
+}
+.tabHeaderDiv {
+    border: 3px solid green;
+}
