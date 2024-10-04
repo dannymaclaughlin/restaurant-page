@@ -1,6 +1,7 @@
 import { loadPage } from "./page-load";
 import { renderHome } from "./home";
 import { renderMenu } from "./menu";
+import { renderContact } from "./contact";
 import "./styles.css";
 
 
@@ -8,13 +9,13 @@ import "./styles.css";
 // loadPage();
 
 // renders home.js module
-renderHome();
+// renderHome();
 
 // renders menu.js file
 // renderMenu();
 
 // renders contact.js module
-// insert renderContact() here
+renderContact();
 
 // tab switching logic ( function to be called after page is loaded )
 function tabSwitchingLogic() {
@@ -23,15 +24,21 @@ function tabSwitchingLogic() {
     const contactButton = document.querySelector("#contact-button");
 
     homeButton.addEventListener('click', () => {
-        alert("you've clicked on the home button")
+        // alert("you've clicked on the home button")
+
+        renderHome();
     })
 
     menuButton.addEventListener('click', () => {
-        alert("you've clicked on the menu button")
+        // alert("you've clicked on the menu button")
+
+        renderMenu();
     })
 
     contactButton.addEventListener('click', () => {
-        alert("you've clicked on the contact button")
+        // alert("you've clicked on the contact button")
+
+        renderContact();
     })
 };
 
