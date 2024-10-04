@@ -2,9 +2,10 @@ import "./styles.css";
 
 export function renderHome() {
     const contentContainer = document.querySelector("#content");
+
     const homeDiv = document.createElement("div");
-    contentContainer.appendChild(homeDiv);
     homeDiv.classList.add("homeDiv");
+    contentContainer.appendChild(homeDiv);
 
     // restaurant name
     const restaurantNameElement = document.createElement("h1");
