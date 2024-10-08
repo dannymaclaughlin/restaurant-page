@@ -72,9 +72,12 @@ body {
 }
 
 /* contact.js */
-.contactDiv {
+.contactMainDiv {
     border: 3px solid blue;
 }
 .tabHeaderDiv {
     border: 3px solid green;
+}
+.contactInfoDiv {
+    border: 3px solid purple;
 }
