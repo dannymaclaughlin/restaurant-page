@@ -6,7 +6,7 @@ import "./styles.css";
 
 
 // renders page-load.js module
-// loadPage();
+loadPage();
 
 // renders home.js module
 // renderHome();
@@ -15,29 +15,39 @@ import "./styles.css";
 // renderMenu();
 
 // renders contact.js module
-renderContact();
+// renderContact();
 
 // tab switching logic ( function to be called after page is loaded )
 function tabSwitchingLogic() {
     const homeButton = document.querySelector("#home-button");
     const menuButton = document.querySelector("#menu-button");
     const contactButton = document.querySelector("#contact-button");
+    const mainContainer = document.querySelector("#content");
 
     homeButton.addEventListener('click', () => {
         // alert("you've clicked on the home button")
 
+        while (mainContainer.firstChild) {
+            mainContainer.removeChild(mainContainer.firstChild);
+        }
         renderHome();
     })
 
     menuButton.addEventListener('click', () => {
         // alert("you've clicked on the menu button")
 
+        while (mainContainer.firstChild) {
+            mainContainer.removeChild(mainContainer.firstChild);
+        }
         renderMenu();
     })
 
     contactButton.addEventListener('click', () => {
         // alert("you've clicked on the contact button")
 
+        while (mainContainer.firstChild) {
+            mainContainer.removeChild(mainContainer.firstChild);
+        }
         renderContact();
     })
 };
