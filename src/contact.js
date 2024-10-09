@@ -28,18 +28,7 @@ export function renderContact() {
 
     contactInfoDiv.appendChild(document.createTextNode("(702)123-4567"));
     contactInfoDiv.appendChild(document.createElement('br'));
-    contactInfoDiv.appendChild(document.createTextNode("123 Shoots Dr."))
+    contactInfoDiv.appendChild(document.createTextNode("210 Potato Dr"))
     contactInfoDiv.appendChild(document.createElement('br'));
     contactInfoDiv.appendChild(document.createTextNode("Las Vegas, NV 89118"))
-
-    // phone number element
-    // const contactPhoneNumberElement = document.createElement("p");
-    // contactInfoDiv.appendChild(contactPhoneNumberElement);
-
-    // // phone number text
-    // const contactPhoneNumberText = document.createTextNode("702-123-4567");
-    // contactPhoneNumberElement.appendChild(contactPhoneNumberText);
-    
-    // // contactInfoDiv.appendChild(document.createElement('br'));
-    // contactInfoDiv.appendChild(document.createTextNode("Address"));
 }
