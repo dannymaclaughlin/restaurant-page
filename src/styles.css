@@ -54,7 +54,9 @@ body {
 
 /* home.js */
 .homeDiv {
-    
+    background-color: #DDB892;
+    border-radius: 8px;
+    padding: 1em;
 }
 
 /* menu.js */
