@@ -9,8 +9,8 @@ button {
     border: none;
     width: 12em;
     height: 2em;
-    background-color: #b08968;
-    font-size: 1em;
+    background-color: #B08968;
+    font-size: 1.25em;
     font-weight: bold;    
 }
 
@@ -20,19 +20,22 @@ button:hover {
 }
 
 body {
-    background-color: #b08968;
+    background-color: #7F5539;
 }
 
 /* header & nav-bar */
 .header {
-    padding: 10px;
+    padding: 5px;
+    background-color: #B08968;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .nav-bar {
-    padding-bottom: 50px;
+    padding: 1em;
 }
 
-/* page-load.js */
+/* PAGE-LOAD.JS */
 .description {
     font-size: 1em;
 }
@@ -45,23 +48,33 @@ body {
 
 .pageloadMainImage {
     /* border: 3px solid red; */
+    border-radius: 8px;
+    /* padding-bottom: 20px; */
+}
+
+.pageloadTextContentDiv {
+    /* border: 3px solid green; */
+    background-color: #B08968;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 1em;
 }
 
 .pageloadHeadline {
-    /* border: 3px solid green; */
+    /* border: 3px solid pink; */
     margin-bottom: 10px;
 }
 
 /* home.js */
 .homeDiv {
-    background-color: #DDB892;
+    background-color: #B08968;
     border-radius: 8px;
     padding: 1em;
 }
 
-/* menu.js */
+/* MENU.JS */
 .menuContainer {
-    border: 3px solid red;
+    /* border: 3px solid red; */
 
     display: flex;
     justify-content: space-between;
@@ -77,8 +90,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 3px solid blue;
-    border-radius: 4px;
+    /* border: 3px solid blue; */
+    border-radius: 8px;
     background-color: #b08968;
 }
 
@@ -88,13 +101,9 @@ body {
     font-size: 10em;
 }
 
-/* contact.js */
-/* .contactMainDiv {
-    border: 3px solid blue;
+/* CONTACT.JS */
+.contactMainDiv {
+    background-color: #B08968;
+    border-radius: 8px;
+    padding: 1em;
 }
-.tabHeaderDiv {
-    border: 3px solid green;
-}
-.contactInfoDiv {
-    border: 3px solid purple;
-} */
