@@ -37,6 +37,21 @@ body {
     font-size: 1em;
 }
 
+.pageloadContentContainer {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.pageloadMainImage {
+    /* border: 3px solid red; */
+}
+
+.pageloadHeadline {
+    /* border: 3px solid green; */
+    margin-bottom: 10px;
+}
+
 /* home.js */
 .homeDiv {
     
@@ -72,7 +87,7 @@ body {
 }
 
 /* contact.js */
-.contactMainDiv {
+/* .contactMainDiv {
     border: 3px solid blue;
 }
 .tabHeaderDiv {
@@ -80,4 +95,4 @@ body {
 }
 .contactInfoDiv {
     border: 3px solid purple;
-}
+} */
